@@ -1,0 +1,31 @@
+
+
+
+.App {
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+  background-color: black;
+  color: rgb(0, 0, 0);
+  height: 100%;
+  width: 100%;
+}
+
+
+.App>.Header {
+  grid-row: 1 span;
+  background-color:
+  rgb(120, 160, 131);
+}
+
+.App>.Main {
+  background-color: rgb(255, 255, 255);
+  grid-row: 10 span; 
+  overflow-y: auto; 
+  max-height: 100%;
+}
+
+.App>.Footer {
+  grid-row: 1 span;
+  background-color: rgb(52, 73, 85);
+
+}

@@ -1,0 +1,17 @@
+.Header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px;
+    font-family: 'Chalkduster', sans-serif;
+    font-size: 2rem;
+}
+
+
+
+@font-face {
+    font-family: 'Chalkduster';
+    src: url('../../assets/Chalkduster.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
